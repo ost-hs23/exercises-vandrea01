@@ -1,12 +1,18 @@
 ---
+title: Title
+author: Andrea Veciana
+table-of-contents: true
 format: html
 editor: source
 ---
 
-1.  Add a title and author to the YAML header. Add a table of contents as well.
+### Section 1
 
-2.  Add two major sections with level two headers. Add a subsection to one of your major sections.
+#### Section 1.1
 
-3.  Add an image link to a web image you have chosen.
+### Section 2
 
-4.  Use any markdown syntax that you can recall from the slides or refresh your memory from <https://quarto.org/docs/authoring/markdown-basics.html>.
+#### Section 2.2
+
+Figure ![Ocean](https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1652341068/EducationHub/photos/ocean-waves.jpg)
+
