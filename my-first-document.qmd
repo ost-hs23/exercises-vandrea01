@@ -1,0 +1,20 @@
+---
+title: "my-first-document"
+author: "Andrea veciana"
+format: html
+theme: sketchy
+editor: visual
+table-of-contents: true
+---
+
+## Joyful Task
+
+-   Organizing thoughts
+
+## Challenging Task
+
+-   Sending versions back and forth
+
+## Fun Fact to Learn
+
+-   How to convince supervisor to use this environment for feedback rounds

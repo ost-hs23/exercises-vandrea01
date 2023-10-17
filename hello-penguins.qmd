@@ -1,8 +1,13 @@
 ---
 title: "Hello, Penguins!"
-format: html
+author: "Andrea Veciana"
+format: beamer
 editor: visual
+execute: 
+  echo: false
 ---
+
+## Abstract
 
 ## Data
 
@@ -36,10 +41,12 @@ ggplot(data = penguins,
   geom_point() +
   scale_color_colorblind() +
   labs(x = "Bill length (mm)", y = "Bill depth (mm)") +
-  theme_minimal()
+  theme_clean()
 ```
 
 ## Penguins
+
+### Group A
 
 The table below shows the first 10 penguins from the dataset.
 
@@ -51,3 +58,7 @@ penguins |>
   select(species, island, bill_length_mm, bill_depth_mm) |>
   gt()
 ```
+
+### Group B
+
+## Conclusion
