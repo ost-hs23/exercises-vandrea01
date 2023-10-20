@@ -15,14 +15,28 @@ library(palmerpenguins)
 
 1.  Create a 2 row x 2 column table, populate with a column for restaurant + column for cuisine. Then, cross reference it from text.
 
+    | Restaurant | Cuisine |
+    |------------|---------|
+    | A          |         |
+    | B          |         |
+
+    : List of Restaurants {#tbl-Restaurants}
+
+See @tbl-Restaurants.
+
 2.  Include the Quarto logo from the `images/` folder as a figure. Add a caption, id, and cross-reference to the figure.
 
+![Quarto Logo](images/quarto-logo.png){#fig-logo}
+
 3.  **Stretch goal:** Add a caption, label, and cross-reference to the figure generated from the code below.
+See @fig-penguins.
 
 ```{r}
 #| warning: false
 #| fig-width: 5
 #| fig-asp: 0.618
+#| label: fig-penguins
+#| fig-cap: A few penguins
 
 ggplot(data = penguins,
        mapping = aes(x = bill_length_mm, 
