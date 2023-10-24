@@ -1,8 +1,17 @@
 ---
 title: "Hello, Penguins!"
-format: html
+author: Andrea Veciana
+format:
+  revealjs: 
+    logo: images/quarto-logo.png
+    footer: "My Footer"
+    chalkboard: true
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
+
+# Introduction
 
 ## Data
 
@@ -25,8 +34,10 @@ The figure below is a scatterplot of species of penguins.
 ```{r}
 #| label: bill-dims-species
 #| warning: false
-#| fig-width: 5
+#| fig-width: 10
 #| fig-asp: 0.618
+#| echo: true
+#| output-location: column-fragment
 
 ggplot(data = penguins,
        mapping = aes(x = bill_length_mm, 
@@ -38,6 +49,14 @@ ggplot(data = penguins,
   labs(x = "Bill length (mm)", y = "Bill depth (mm)") +
   theme_minimal()
 ```
+
+::: notes
+-   bullet 1
+
+-   bullet 2
+
+-   bullet 3
+:::
 
 ## Penguins
 
@@ -51,3 +70,17 @@ penguins |>
   select(species, island, bill_length_mm, bill_depth_mm) |>
   gt()
 ```
+
+# Analysis
+
+## Modeling
+
+::: incremental
+-   Information about model
+
+-   text about results
+
+-   comments about shortcomings
+:::
+
+# References

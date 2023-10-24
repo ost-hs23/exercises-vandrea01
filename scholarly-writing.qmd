@@ -2,9 +2,9 @@
 title: "An example scholarly article"
 date: 2023-10-17
 author:
-  - name: First Last
-    orcid: 0000-0003-2196-5015
-    email: me@web.org
+  - name: Andrea Veciana
+    orcid: 0000-0003-0060-0949
+    email: vandrea@ethz.ch
     affiliation: 
       - name: ETH Zurich
         url: https://ethz.ch/de.html
@@ -32,11 +32,11 @@ Scholarly articles require much more detail in their front matter than simply a 
 
 1.  Add the citation key for the paper "'My flight arrives at 5 am, can you pick me up?': The gatekeeping burden of the african academic" as an in-text reference to the sentence below
 
-In \_\_\_, the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.
+In @kalina2023rich, the authors describe how visitors still expect a personal pick-up, despite the availability of taxi services.
 
 2.  Add the citation key for the paper "'The rich will always be able to dispose of their waste': a view from the frontlines of municipal failure in Makhanda, South Africa" as a citation at the end of the sentence below.
 
-Inequality underpins waste management systems, structuring who can or cannot access services \_\_\_.
+Inequality underpins waste management systems, structuring who can or cannot access services [@tilley2021my].
 
 ## Bibliographies
 
